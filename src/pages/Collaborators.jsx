@@ -5,7 +5,7 @@ import { Alert, Badge, Spinner } from 'react-bootstrap';
 function Collaborators() {
   const collaboratorsList = useSelector(state => state.collaborators.list)
   const collaboratorsLoading = useSelector(state => state.collaborators.loading)
-  const collaboratorsError = useSelector(state => state.collaborators.loading)
+  const collaboratorsError = useSelector(state => state.collaborators.error)
 
   if (collaboratorsLoading) {
     return <Spinner animation="border" />
