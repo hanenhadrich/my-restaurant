@@ -16,9 +16,9 @@ import { fetchTasks } from './store/tasksSlice'
 
 function App() {
   const dispatch = useDispatch()
-  useEffect(() => {
-    dispatch(fetchTasks())
-  }, [])
+  // useEffect(() => {
+  //   dispatch(fetchTasks())
+  // }, [])
   return (
     <BrowserRouter>
       <AppNavbar />
