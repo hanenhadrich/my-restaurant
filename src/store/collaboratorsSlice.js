@@ -1,4 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
+import axios from "axios"
 
 
 const COLLABORATORS_LOCALLY = [
@@ -13,7 +14,8 @@ const initialState = {
 }
 
 export const fetchCollaborators = createAsyncThunk('collaborators/fetchCollaborators', () => {
-    
+    return axios.get("http://localhost:3000/collaborators")
+                .then(res => { return res })
 })
 
 const collaboratorsSlice = createSlice({
@@ -23,7 +25,20 @@ const collaboratorsSlice = createSlice({
         
     },
     extraReducers: (builder) => {
-        
+        builder
+            .addCase(fetchCollaborators.pending, (state, action) => {
+                state.loading = true;
+                console.log(action);                
+            })
+            .addCase(fetchCollaborators.fulfilled, (state, action) => {
+                state.loading = false;
+                console.log(action);                
+                state.list = action.payload.data
+            })
+            .addCase(fetchCollaborators.rejected, (state, action) => {
+                state.loading = false;
+                console.log(action);
+            })
     }
 })
 
