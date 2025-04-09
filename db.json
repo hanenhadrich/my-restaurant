@@ -1,126 +1,356 @@
 {
-  "tasks": [
+  "produitsSucrees": [
     {
-      "id": 4125,
-      "title": "Create App Wireframes",
-      "collaborator": 1002
+      "image": {
+        "thumbnail": "./assets/images/image-creme-brulee-thumbnail.jpg",
+        "mobile": "./assets/images/image-creme-brulee-mobile.jpg",
+        "tablet": "./assets/images/image-creme-brulee-tablet.jpg",
+        "desktop": "./assets/images/image-creme-brulee-desktop.jpg"
+      },
+      "id": "1",
+      "type": "sucré",
+      "name": "Vanilla Bean Crème Brûlée",
+      "category": "Crème Brûléef",
+      "price": 7,
+      "quantite": 0
     },
     {
-      "id": 6236,
-      "title": "Backend Development",
-      "collaborator": 1001
+      "image": {
+        "thumbnail": "./assets/images/image-waffle-thumbnail.jpg",
+        "mobile": "./assets/images/image-waffle-mobile.jpg",
+        "tablet": "./assets/images/image-waffle-tablet.jpg",
+        "desktop": "./assets/images/image-waffle-desktop.jpg"
+      },
+      "id": "2",
+      "type": "sucré",
+      "name": "Waffle with Berries",
+      "category": "Waffle",
+      "price": 6.5,
+      "quantite": 0
     },
     {
-      "id": 4567,
-      "title": "User Interface Design",
-      "collaborator": null
+      "image": {
+        "thumbnail": "./assets/images/image-macaron-thumbnail.jpg",
+        "mobile": "./assets/images/image-macaron-mobile.jpg",
+        "tablet": "./assets/images/image-macaron-tablet.jpg",
+        "desktop": "./assets/images/image-macaron-desktop.jpg"
+      },
+      "id": "3",
+      "type": "sucré",
+      "name": "Macaron Mix of Five",
+      "category": "Macaron",
+      "price": 8,
+      "quantite": 0
     },
     {
-      "id": 4456,
-      "title": "User Authentication",
-      "collaborator": 1001
+      "image": {
+        "thumbnail": "./assets/images/image-tiramisu-thumbnail.jpg",
+        "mobile": "./assets/images/image-tiramisu-mobile.jpg",
+        "tablet": "./assets/images/image-tiramisu-tablet.jpg",
+        "desktop": "./assets/images/image-tiramisu-desktop.jpg"
+      },
+      "id": "4",
+      "type": "sucré",
+      "name": "Classic Tiramisu",
+      "category": "Tiramisu",
+      "price": 5.5,
+      "quantite": 0
     },
     {
-      "id": 4107,
-      "title": "Write App Documentation",
-      "collaborator": null
+      "image": {
+        "thumbnail": "./assets/images/image-baklava-thumbnail.jpg",
+        "mobile": "./assets/images/image-baklava-mobile.jpg",
+        "tablet": "./assets/images/image-baklava-tablet.jpg",
+        "desktop": "./assets/images/image-baklava-desktop.jpg"
+      },
+      "id": "5",
+      "type": "sucré",
+      "name": "Pistachio Baklava",
+      "category": "Baklava",
+      "price": 4,
+      "quantite": 0
     },
     {
-      "id": 8103,
-      "title": "Frontend Development",
-      "collaborator": 1001
+      "image": {
+        "thumbnail": "./assets/images/image-meringue-thumbnail.jpg",
+        "mobile": "./assets/images/image-meringue-mobile.jpg",
+        "tablet": "./assets/images/image-meringue-tablet.jpg",
+        "desktop": "./assets/images/image-meringue-desktop.jpg"
+      },
+      "id": "6",
+      "type": "sucré",
+      "name": "Lemon Meringue Pie",
+      "category": "Pie",
+      "price": 5,
+      "quantite": 0
     },
     {
-      "id": 9172,
-      "title": "Set Up Deployment",
-      "collaborator": null
+      "image": {
+        "thumbnail": "./assets/images/image-cake-thumbnail.jpg",
+        "mobile": "./assets/images/image-cake-mobile.jpg",
+        "tablet": "./assets/images/image-cake-tablet.jpg",
+        "desktop": "./assets/images/image-cake-desktop.jpg"
+      },
+      "id": "7",
+      "type": "sucré",
+      "name": "Red Velvet Cake",
+      "category": "Cake",
+      "price": 4.5,
+      "quantite": 3
     },
     {
-      "id": 6112,
-      "title": "User Testing and Feedback",
-      "collaborator": null
-    },
-    {
-      "id": 8500,
-      "title": "Testing and Bug Fixing",
-      "collaborator": null
-    },
-    {
-      "id": 8501,
-      "title": "Marketing and Promotion",
-      "collaborator": null
-    },
-    {
-      "id": 8502,
-      "title": "Performance Optimization",
-      "collaborator": null
-    },
-    {
-      "id": 8503,
-      "title": "Monthly Report Generation",
-      "collaborator": null
+      "image": {
+        "thumbnail": "./assets/images/image-brownie-thumbnail.jpg",
+        "mobile": "./assets/images/image-brownie-mobile.jpg",
+        "tablet": "./assets/images/image-brownie-tablet.jpg",
+        "desktop": "./assets/images/image-brownie-desktop.jpg"
+      },
+      "id": "8",
+      "type": "sucré",
+      "name": "Salted Caramel Brownie",
+      "category": "Brownie",
+      "price": 4.5,
+      "quantite": 15
     }
   ],
-  "collaborators": [
+  "repasGourmet": [
     {
-      "id": 1001,
-      "name": "Leanne Graham",
-      "username": "Bret",
-      "email": "Sincere@april.biz"
+      "image": {
+        "thumbnail": "./assets/images/image-risotto-thumbnail.jpg",
+        "mobile": "./assets/images/image-risotto-mobile.jpg",
+        "tablet": "./assets/images/image-risotto-tablet.jpg",
+        "desktop": "./assets/images/image-risotto-desktop.jpg"
+      },
+      "id": "9",
+      "type": "gourmet",
+      "name": "Risotto aux Truffes",
+      "category": "Risotto",
+      "price": 18,
+      "quantite": 0
     },
     {
-      "id": 1002,
-      "name": "Ervin Howell",
-      "username": "Antonette",
-      "email": "Shanna@melissa.tv"
+      "image": {
+        "thumbnail": "./assets/images/image-salmon-thumbnail.jpg",
+        "mobile": "./assets/images/image-salmon-mobile.jpg",
+        "tablet": "./assets/images/image-salmon-tablet.jpg",
+        "desktop": "./assets/images/image-salmon-desktop.jpg"
+      },
+      "id": "10",
+      "type": "gourmet",
+      "name": "Saumon Grillé aux Herbes",
+      "category": "Poisson",
+      "price": 22,
+      "quantite": 3
     },
     {
-      "id": 3725,
-      "name": "Clementine Bauch",
-      "username": "Samantha",
-      "email": "Nathan@yesenia.net"
+      "image": {
+        "thumbnail": "./assets/images/image-steak-thumbnail.jpg",
+        "mobile": "./assets/images/image-steak-mobile.jpg",
+        "tablet": "./assets/images/image-steak-tablet.jpg",
+        "desktop": "./assets/images/image-steak-desktop.jpg"
+      },
+      "id": "11",
+      "type": "gourmet",
+      "name": "Steak Frites de la Maison",
+      "category": "Viande",
+      "price": 25,
+      "quantite": 4
     },
     {
-      "id": 4548,
-      "name": "Patricia Lebsack",
-      "username": "Karianne",
-      "email": "Julianne.OConner@kory.org"
+      "image": {
+        "thumbnail": "./assets/images/image-lobster-thumbnail.jpg",
+        "mobile": "./assets/images/image-lobster-mobile.jpg",
+        "tablet": "./assets/images/image-lobster-tablet.jpg",
+        "desktop": "./assets/images/image-lobster-desktop.jpg"
+      },
+      "id": "12",
+      "type": "gourmet",
+      "name": "Homard Thermidor",
+      "category": "Fruits de mer",
+      "price": 35,
+      "quantite": 2
     },
     {
-      "id": 4502,
-      "name": "Chelsey Dietrich",
-      "username": "Kamren",
-      "email": "Lucio_Hettinger@annie.ca"
+      "image": {
+        "thumbnail": "./assets/images/image-pasta-thumbnail.jpg",
+        "mobile": "./assets/images/image-pasta-mobile.jpg",
+        "tablet": "./assets/images/image-pasta-tablet.jpg",
+        "desktop": "./assets/images/image-pasta-desktop.jpg"
+      },
+      "id": "13",
+      "type": "gourmet",
+      "name": "Pasta à la Truffe",
+      "category": "Pasta",
+      "price": 20,
+      "quantite": 7
     },
     {
-      "id": 4721,
-      "name": "Mrs. Dennis Schulist",
-      "username": "Leopoldo_Corkery",
-      "email": "Karley_Dach@jasper.info"
+      "image": {
+        "thumbnail": "./assets/images/image-duck-thumbnail.jpg",
+        "mobile": "./assets/images/image-duck-mobile.jpg",
+        "tablet": "./assets/images/image-duck-tablet.jpg",
+        "desktop": "./assets/images/image-duck-desktop.jpg"
+      },
+      "id": "14",
+      "type": "gourmet",
+      "name": "Canard aux Cèpes",
+      "category": "Viande",
+      "price": 30,
+      "quantite": 6
     },
     {
-      "id": 7652,
-      "name": "Kurtis Weissnat",
-      "username": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz"
+      "image": {
+        "thumbnail": "./assets/images/image-rack-lamb-thumbnail.jpg",
+        "mobile": "./assets/images/image-rack-lamb-mobile.jpg",
+        "tablet": "./assets/images/image-rack-lamb-tablet.jpg",
+        "desktop": "./assets/images/image-rack-lamb-desktop.jpg"
+      },
+      "id": "15",
+      "type": "gourmet",
+      "name": "Côtelettes d'Agneau Grillées",
+      "category": "Viande",
+      "price": 28,
+      "quantite": 4
     },
     {
-      "id": 8734,
-      "name": "Nicholas Runolfsdottir V",
-      "username": "Maxime_Nienow",
-      "email": "Sherwood@rosamond.me"
+      "image": {
+        "thumbnail": "./assets/images/image-foie-gras-thumbnail.jpg",
+        "mobile": "./assets/images/image-foie-gras-mobile.jpg",
+        "tablet": "./assets/images/image-foie-gras-tablet.jpg",
+        "desktop": "./assets/images/image-foie-gras-desktop.jpg"
+      },
+      "id": "16",
+      "type": "gourmet",
+      "name": "Foie Gras Poêlé",
+      "category": "Entrée",
+      "price": 45,
+      "quantite": 3
+    }
+  ],
+  "platTraditionnel": [
+    {
+      "image": {
+        "thumbnail": "./assets/images/image-bouillabaisse-thumbnail.jpg",
+        "mobile": "./assets/images/image-bouillabaisse-mobile.jpg",
+        "tablet": "./assets/images/image-bouillabaisse-tablet.jpg",
+        "desktop": "./assets/images/image-bouillabaisse-desktop.jpg"
+      },
+      "id": "17",
+      "type": "traditionnel",
+      "name": "Bouillabaisse Provençale",
+      "category": "Poisson",
+      "price": 18,
+      "quantite": 0
     },
     {
-      "id": 9724,
-      "name": "Glenna Reichert",
-      "username": "Delphine",
-      "email": "Chaim_McDermott@dana.io"
+      "image": {
+        "thumbnail": "./assets/images/image-coq-au-vin-thumbnail.jpg",
+        "mobile": "./assets/images/image-coq-au-vin-mobile.jpg",
+        "tablet": "./assets/images/image-coq-au-vin-tablet.jpg",
+        "desktop": "./assets/images/image-coq-au-vin-desktop.jpg"
+      },
+      "id": "18",
+      "type": "traditionnel",
+      "name": "Coq au Pommes de Terre",
+      "category": "Viande",
+      "price": 22,
+      "quantite": 4
     },
     {
-      "id": 1083,
-      "name": "Clementina DuBuque",
-      "username": "Moriah.Stanton",
-      "email": "Rey.Padberg@karina.biz"
+      "image": {
+        "thumbnail": "./assets/images/image-ratatouille-thumbnail.jpg",
+        "mobile": "./assets/images/image-ratatouille-mobile.jpg",
+        "tablet": "./assets/images/image-ratatouille-tablet.jpg",
+        "desktop": "./assets/images/image-ratatouille-desktop.jpg"
+      },
+      "id": "18",
+      "type": "traditionnel",
+      "name": "Ratatouille Provençale",
+      "category": "Légumes",
+      "price": 18,
+      "quantite": 6
+    },
+    {
+      "image": {
+        "thumbnail": "./assets/images/image-blanquette-thumbnail.jpg",
+        "mobile": "./assets/images/image-blanquette-mobile.jpg",
+        "tablet": "./assets/images/image-blanquette-tablet.jpg",
+        "desktop": "./assets/images/image-blanquette-desktop.jpg"
+      },
+      "id": "19",
+      "type": "traditionnel",
+      "name": "Blanquette de Veau",
+      "category": "Viande",
+      "price": 24,
+      "quantite": 3
+    },
+    {
+      "image": {
+        "thumbnail": "./assets/images/image-gratin-dauphinois-thumbnail.jpg",
+        "mobile": "./assets/images/image-gratin-dauphinois-mobile.jpg",
+        "tablet": "./assets/images/image-gratin-dauphinois-tablet.jpg",
+        "desktop": "./assets/images/image-gratin-dauphinois-desktop.jpg"
+      },
+      "id": "20",
+      "type": "traditionnel",
+      "name": "Gratin Dauphinois",
+      "category": "Accompagnement",
+      "price": 15,
+      "quantite": 7
+    },
+    {
+      "image": {
+        "thumbnail": "./assets/images/image-boeuf-bourguignon-thumbnail.jpg",
+        "mobile": "./assets/images/image-boeuf-bourguignon-mobile.jpg",
+        "tablet": "./assets/images/image-boeuf-bourguignon-tablet.jpg",
+        "desktop": "./assets/images/image-boeuf-bourguignon-desktop.jpg"
+      },
+      "id": "21",
+      "type": "traditionnel",
+      "name": "Boeuf Bourguignon",
+      "category": "Viande",
+      "price": 28,
+      "quantite": 4
+    },
+    {
+      "image": {
+        "thumbnail": "./assets/images/image-soupe-oignon-thumbnail.jpg",
+        "mobile": "./assets/images/image-soupe-oignon-mobile.jpg",
+        "tablet": "./assets/images/image-soupe-oignon-tablet.jpg",
+        "desktop": "./assets/images/image-soupe-oignon-desktop.jpg"
+      },
+      "id": "22",
+      "type": "traditionnel",
+      "name": "Soupe à l'Oignon",
+      "category": "Entrée",
+      "price": 12,
+      "quantite": 8
+    },
+    {
+      "image": {
+        "thumbnail": "./assets/images/image-quiche-lorraine-thumbnail.jpg",
+        "mobile": "./assets/images/image-quiche-lorraine-mobile.jpg",
+        "tablet": "./assets/images/image-quiche-lorraine-tablet.jpg",
+        "desktop": "./assets/images/image-quiche-lorraine-desktop.jpg"
+      },
+      "id": "23",
+      "type": "traditionnel",
+      "name": "Quiche Lorraine",
+      "category": "Entrée",
+      "price": 16,
+      "quantite": 5
+    }
+  ],
+  "notes": [
+    {
+      "id": "17",
+      "title": "verfication productsxx",
+      "content": "add new product traditionnelxx"
+    },
+    {
+      "title": "xdfdg",
+      "content": "fgdffd",
+      "id": "5YbaWTu"
     }
   ]
 }

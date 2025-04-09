@@ -1,10 +1,16 @@
-import { configureStore } from '@reduxjs/toolkit'
-import tasksReducer from './tasksSlice'
-import collaboratorsReducer from './collaboratorsSlice'
+import { configureStore } from '@reduxjs/toolkit';
+import produitsSucreesSliceReducer from './produitsSucreesSlice';
+import produitsGourmetSliceReducer from './produitsGourmetSlice';
+import cartReducer from './cartSlice';
+import produitsTraditionnelSliceReducer from './produitsTraditionnelSlice'; 
+import notesReducer from './notesSlice';
 
 export const store = configureStore({
-    reducer: {
-        tasks: tasksReducer,
-        collaborators: collaboratorsReducer,
-    }
-})
+  reducer: {
+    cart: cartReducer,
+    produitsGourmet: produitsGourmetSliceReducer,
+    produitsTraditionnel: produitsTraditionnelSliceReducer,
+    produitsSucrees: produitsSucreesSliceReducer,
+    notes: notesReducer,
+  }
+});

@@ -6,12 +6,12 @@ import { store } from './store'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import './index.css'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
+  <React.StrictMode>
     <Provider store={store}>
       <App />
     </Provider>
-  // </React.StrictMode>,
+  </React.StrictMode>,
 )
